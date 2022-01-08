@@ -4,6 +4,7 @@ Quicksort with several pivot choices and comparators
 
 ## Function Definitions
 
+```
 void quicksort(T a[], int l, int r, int (*pivAlg)(T a[], int l, int r, bool(*cmp)(T& a, T&b)), bool (*cmp)(T& a, T& b));
 void partition(T a[], int l, int r, bool (*cmp)(T& a, T& b));
 void randomPivot(T a[], int l, int r, bool (*cmp(T& a, T& b));
@@ -11,8 +12,7 @@ void medianOf3(T a[], int l, int r, bool (*cmp)(T& a, T& b));
 bool isLess(T& a, T& b);
 bool isMore(T& a, T& b);
 void exch(T& a, T& b);
-
-
+```
 
 
 ## use:
